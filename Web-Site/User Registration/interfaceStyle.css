@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("border.jpg");
+    background-size: cover;
+}
+
+.container{
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+
+.form-container{
+    background-color: #141B29;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 70%;
+    height: 45%;
+    padding: 30px;
+    border:2px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    
+}
+
+.username{
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.phone{
+    padding: 20px;
+    margin-top: -10px;
+    
+}
+
+.input-field{
+    background-color: #141B29;
+    border: none;
+    border-bottom: 3px solid  #61A4B3  ;
+    width: 50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif   ;
+    font-size: large;
+    color: white;
+    height: 35px;
+    margin-left: 240px;
+
+
+}
+
+.input-field:focus{
+    outline: none;
+}
+
+.usernameLabel{ 
+    display: block;
+    font-size: small;
+    color: #61A4B3 ;
+    margin-top: 10px;
+    margin-left: 240px;
+
+}
+
+.phoneLabel{ 
+    display: block;
+    font-size: small;
+    color: #61A4B3 ;
+    margin-left: 240px;
+    margin-top: 10px;   
+    
+
+}
+
+.submit{
+    text-align: center;
+}
+
+.submit-field{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    background-color: #141B29 ;
+    color: #61A4B3 ;
+    border: 3px solid #61A4B3;
+    transition: 0.6s;
+
+}
+
+.submit-field:hover{
+    background-color: #61A4B3 ;
+    color:  #141B29 ;
+}
+
+
+span{
+    visibility: hidden;
+}
+
+label{
+    visibility: hidden;
+}
+
+
+.notification{
+    background-color: #61A4B3 ;
+    color: #141B29;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    padding: 20px;
+    width: 40%;
+    text-align: center;
+    top: -60px;
+    left : 442px;
+    font-size: medium;
+    transition: 0.6s;
+    opacity: 0;
+
+
+
+}
+
+
+
+
